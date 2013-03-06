@@ -6,9 +6,14 @@ Inverts the brightness of colors in a notepad2 theme .ini file
  
 ### Requirements
   .NET framework v2.0
+  
+  find your C# compiler:
+  
+    where /r %windir%\microsoft.net csc.exe
  
 ### Build
-  csc.exe InvertNodepad2.cs
+
+    csc.exe InvertNodepad2.cs
 		
 ### Usage
 1. in notepad2, View->Customize schemes->Export
